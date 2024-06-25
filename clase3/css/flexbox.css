@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: hsl(290, 48%, 14%);
+    color: hsl(290, 70%, 80%);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+ main{
+    width: 768px;
+    margin: auto; /* centrar un contenedor en eje X */
+ }
+
+ section{
+    background-color: hsl(290, 48%, 10%);
+    height: 320px;
+    margin: 64px 0px;
+ }
+    article{
+        height: 128px;
+        width: 128px;
+        background-color: hsl(120, 50%, 60%);
+        border: 2px solid #666;
+    }
+
+ #horizontal{
+    display: flex;
+    /* eje X (horizontal) */
+    /* justify-content: start; /* predeterminado: hacia la izquierda */
+    /* justify-content: end; /* hacia la derecha */
+    /* justify-content: center; */
+    justify-content: space-between;
+ }
+
+ #vertical{
+    display: flex;
+    /* ejeY (vertical) */
+    /* align-items: start; /* predeterminado: arriba */
+    /* align-items: end; /* abajo */
+    align-items: center;
+ }
