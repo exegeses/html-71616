@@ -43,6 +43,27 @@ main{
     background: linear-gradient(180deg, #5B86E5, #37D2DC);
 }
 
+    #hero article{
+        width: 1100px;
+        height: 680px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+        #hero article div{
+            /*width: 550px;*/
+            width: 50%;
+            color: #fff;
+        }
+            #hero article div h1{
+                font-size: 24px;
+                font-weight: 400;
+                margin-bottom: 40px;
+            }
+            #hero article div h2{
+                
+            }
+
 
 footer{
     height: 216px;

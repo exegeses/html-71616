@@ -1,0 +1,47 @@
+body{
+    width: 768px;
+    margin: auto;
+    font-family: tahoma;
+    font-size: 24px;
+    background-color: #4f4f4f;
+}
+    main{
+        margin: 64px 0px;
+    }
+    h1, h2{
+        margin: 16px 0 24px 0px;
+    }
+    section{
+        height: 380px;
+        background-color: #9f9f9f;
+    }
+
+    #horiz{
+        display: flex;
+        /* Para distribuir en el eje horizontal 
+        utilizamos el atributo justify-content */
+        /* justify-content: start; /* predeterminado: Hacia la izquierda */
+        /* justify-content: end; /* hacia la derecha */
+        /* justify-content: center; */
+        justify-content: space-between;
+    }
+    #vert{
+        display: flex;
+        /* Para distribuir en el eje vertical 
+        utilizamos el atributo align-items */
+        /* align-items: start; /* predeterminado: arriba */
+        /* align-items: end;  /* debajo */
+        align-items: center;
+    }
+    #ambos{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+        article{
+            width: 96px;
+            height: 96px;
+            background-color: rgb(154, 248, 204);
+        }
+    
