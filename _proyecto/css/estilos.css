@@ -84,12 +84,84 @@ main{
     }
     #servicios article{
         width: 336px;
-        height: 288px;
+        height: 289px;
         border: 2px solid #07B2FF;
+        border-radius: 8px;
+        color: #07B2FF;
+        padding: 24px 28px;
     }
+        #servicios h2{
+            font-weight: 300;
+            margin: 24px 0px 16px 0px;
+        }
+        #servicios p{
+            margin-bottom: 8px;
+        }
+        #servicios a{
+            /* display: block; */
+            text-decoration: none;
+            color: #07B2FF;
+            /* margin-top: 8px; */
+        }
+
+#portfolio{
+    width: 1100px;
+    margin: 72px auto 0px auto;
+    padding: 32px 0px;
+
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-evenly;
+}
+    #portfolio h1{
+        width: 100%;
+        font-weight: 400;
+        text-align: center;
+    } 
+    #portfolio article{
+        width: 340px;
+        height: 340px;
+        margin-top: 30px;
+        padding-bottom: 16px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+    #port-1{
+        background-image: url(../imgs/portfolio-1.png);
+    }
+    #port-2{
+        background-image: url(../imgs/portfolio-2.png);
+    }
+    #port-3{
+        background-image: url(../imgs/portfolio-3.png);
+    }
+    #port-4{
+        background-image: url(../imgs/portfolio-4.png);
+    }
+    #port-5{
+        background-image: url(../imgs/portfolio-5.png);
+    }
+    #port-6{
+        background-image: url(../imgs/portfolio-6.png);
+    }
+        #portfolio article a{
+            background-color: #fff;
+        }
 
 
 footer{
-    height: 216px;
+    margin-top: 72px;
     background-color: #0B1E46;
 }
+    footer div{
+        width: 1100px;
+        height: 216px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        footer div nav a{
+            margin: 16px;
+        }

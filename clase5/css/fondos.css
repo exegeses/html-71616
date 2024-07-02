@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #fff;
+    background-image: url(../imgs/playa.jpg);
+    /* posición de la imagen   x  y */
+    background-position: center center;
+}
+    main{
+        width: 768px;
+        margin: 64px auto;
+    }
+        h1{
+            background-color: hsla(0, 0%, 10%, 25%);
+            padding: 16px 72px;
+            background-image: url(../imgs/iso.png);
+            /* repetición de la imagen */
+            background-repeat: no-repeat;
+            /* posición de la imagen   x  y */
+            background-position: 4px center;
+        }
+
+        #primero{
+            height: 380px;
+            display: flex;
+            align-items: center;
+            padding-left: 32px;
+            background-image: url(../imgs/hut-bg.jpg);
+            /* background-color: hsla(0, 0%, 10%, 25%); */
+        }
+
